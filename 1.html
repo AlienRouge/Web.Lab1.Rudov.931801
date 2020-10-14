@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Web lab1</title>
+    <style>
+      .images {
+        float: right;
+        margin-top: -2.5em;
+      }
+
+      table {
+        border-style: solid;
+        border-color: silver;
+        border-width: 1px;
+      }
+      td {
+        width: 40px;
+        height: 30px;
+        border: solid 1px silver;
+        text-align: center;
+        vertical-align: bottom;
+        float: inline-end;
+      }
+      .bottom {
+        line-height: 0.7em;
+        margin-bottom: -2em;
+      }
+
+      ul {
+        line-height: 1.5em;
+        margin-top: -1em;
+        margin-left: -0.5em;
+        margin-bottom: 0;
+      }
+
+      .green-things {
+        background-color: green;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        width: 100%;
+      }
+      header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        font-family: Courier New, monospace;
+      }
+
+      footer {
+        position: fixed;
+        left: 0;
+        font-family: "Arial", sans-serif;
+      }
+      .white {
+        margin-right: 1em;
+        margin-bottom: 2em;
+        float: left;
+        width: 5.5em;
+        height: 5em;
+        border-style: solid;
+        border-color: white;
+        border-width: 4.5px;
+        border-radius: 15px 0 15px 0;
+      }
+
+      main {
+        padding: 1.6em;
+        padding-bottom: -3em;
+        margin: 0 37% 0 37%;
+        background-color: blue;
+        color: white;
+        font-family: "Arial", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="green-things">Hello, Header!</header>
+    <main>
+      <h1>Hello, content!</h1>
+      <div class="white"></div>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has <br />
+        survived not only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged. It was popularised in the
+        1960s with the release of Letraset sheets containing Lorem Ipsum
+        passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum.
+      </p>
+      <div style="text-align: center; margin-top: -0.5em">
+        <a style="color: red" href="https://csd.tsu.ru">
+          <ins>www.csd.tsu.ru</ins></a
+        >
+      </div>
+      <h2 style="margin-top: 2%">
+        <span style="color: red">Here</span>&ensp; is&ensp; the&ensp; list:
+      </h2>
+      <ul>
+        <li>Value 1</li>
+        <li style="color: cyan; letter-spacing: 0.3em">Value 2</li>
+        <li>Value 3</li>
+      </ul>
+
+      <div class="bottom">
+        <div>
+          <h3>Here are some visual styles:</h3>
+          <table class="images">
+            <tr>
+              <td rowspan="2" style="background-color: green">1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td colspan="2" style="background-color: red">7</td>
+            </tr>
+          </table>
+        </div>
+        <p style="font-family: Italic"><i>Italic</i></p>
+        <p><b>Bold</b></p>
+        <p><ins>UnderLined</ins></p>
+        <div>
+          <p style="line-height: 2em"><del>Line through</del></p>
+          <img class="images" src="images.png" />
+        </div>
+      </div>
+    </main>
+    <footer class="green-things">Hello, Footer!</footer>
+  </body>
+</html>
