@@ -1,0 +1,63 @@
+html,body{
+    margin:0px;
+    padding:0px;
+}
+  header,footer
+  {
+      color: white;
+    background-color:green;
+    height:30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+.images {
+    float: right;
+    margin-top: -2.5em;
+  }
+
+  table {
+    border-style: solid;
+    border-color: silver;
+    border-width: 1px;
+  }
+  td {
+    width: 40px;
+    height: 30px;
+    border: solid 1px silver;
+    text-align: center;
+    vertical-align: bottom;
+    float: inline-end;
+  }
+  .bottom {
+    line-height: 0.7em;
+    margin-bottom: -2em;
+  }
+
+  ul {
+    line-height: 1.5em;
+    margin-top: -1em;
+    margin-left: -0.5em;
+    margin-bottom: 0;
+  }
+
+  .white {
+    margin-right: 1em;
+    margin-bottom: 2em;
+    float: left;
+    width: 5.5em;
+    height: 5em;
+    border-style: solid;
+    border-color: white;
+    border-width: 4.5px;
+    border-radius: 15px 0 15px 0;
+  }
+
+  main {
+    padding: 1em 1.6em 1.6em 1.6em;
+    max-width: 400px;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    font-family: "Arial", sans-serif;
+  }
